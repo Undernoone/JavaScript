@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+<div></div>
+<script>
+    // function saymyname(){
+    //     console.log('undernoone')
+    // }
+    // saymyname()
+    // function add(){
+    //     let num1 =+prompt("请输入第一个数：")
+    //     let num2 =+prompt("请输入第二个数：")
+    //     console.log(num1+num2)
+    // }
+    // add()
+    // function addtotal(num){
+    //     let sum = 0
+    //     for (let i = 1;i<=num;i++){
+    //         sum=sum+i
+    //     }
+    //     console.log(sum)
+    // }
+    // addtotal(10)
+    // addtotal(50)
+    // function addtotal(init,end){
+    //     let sum = 0
+    //     for (let i = init;i<=end;i++){
+    //         sum=sum+i
+    //     }
+    //     console.log(sum)
+    // }
+    // addtotal(10,30)
+    // addtotal(50,100)
+    function add() {
+        let num1 = +prompt("请输入第一个数：")
+        let num2 = +prompt("请输入第二个数：")
+        return num1 + num2
+    }
+    let ret = add()
+    const div =document.querySelector('div')
+    div.innerHTML = ret
+    // console.log(ret)
+    // JavaScript定义函数和定义变量同理，只需用function
+    // 返回值用return,多个返回值return数组
+</script>
+</body>
+</html>

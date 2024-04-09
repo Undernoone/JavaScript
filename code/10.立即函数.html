@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // (function (){
+    //     console.log('hello')
+    // })();
+    // (function (){
+    //     console.log('hello')
+    // })()
+    (function add(x, y) {
+        console.log(x + y)
+    })(1, 2)
+    //第一种写法：(function(){}())，括号内正常写函数，在写完函数后加一个括号
+    //第二种写法：(function(){})()先写出两个括号，第一个括号内正常写函数，第二个函数相当于调用函数，输入参数直接进行第一个括号中的操作
+    //两个立即函数相邻则需要加分好（正常JavaScript不需要加分号）
+</script>
+</body>
+</html>
